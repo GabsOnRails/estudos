@@ -1,0 +1,25 @@
+#!/bin/bash
+
+data=`date`
+var=0
+beep -f 2000 -l 200
+
+echo "Deseja programar o computador para desligar? (s/n)"
+read alternativa
+
+if [ "$alternativa" = 's' ]; then
+	echo "Quantos minutos?"
+	read minutos
+	contagem1=$(($minutos*60))
+	contagem2=$(($contagem1-120))
+	echo "Programação realizada em $data para $minutos minutos"
+	sleep $contagem2
+	echo "O computador irá desligar daqui 2 minutos, feche as abas."
+
+	sleep 120
+	shutdown now
+else
+	echo "Programação cancelada"
+fi
+
+

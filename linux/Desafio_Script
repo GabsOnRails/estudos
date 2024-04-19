@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#O objetivo desse desafio era criar um script que seguisse as seguintes regras:
+# 1 - Os arquivos precisavam ser criados de forma automática e de acordo com o número pré-definido (váriavel max).
+# 2 - Todos arquivos precisavam conter um número identificador no final (váriavel numerador) que acompanhasse a criação dos arquivos.
+# 3 - Toda vez que o script fosse executado a criação precisa continuar com base no último arquivo criado (váriavel var).
+
+nome=Gabriel
+max=25
+var=$(ls|grep -c Gabriel)
+
+for ((contador=1;contador<=$max;contador++));do
+	numerador=$(($var+contador))
+	arquivo="$nome $numerador"
+	touch "$arquivo"
+	sleep 0.8
+	echo "Arquivo criado: $arquivo"
+
+done
+
+
+

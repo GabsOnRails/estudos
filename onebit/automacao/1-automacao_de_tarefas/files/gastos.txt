@@ -1,0 +1,6 @@
+Tipo,Valor,Pagamento
+Energia,210,Cartão
+Jogos,40,Pix
+Petshop,110,Pix
+Alimentação,300,Cartão
+Livros,1.99,Dinheiro

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Silkscreen&display=swap');
+/* importando fontes do google */
+
+/* Criando variáveis global */
+:root {
+    --cor-primaria: #000;
+    --cor-secundaria: #19e0d1;
+    --cor-terciaria: #e651da;
+    --cor-texto: #dedede;
+    --cor-hover: #272727;
+
+    --font-primaria: 'Silkscreen', sans-serif;
+    --font-secundaria: 'Great Vibes', cursive;
+}
+
+/* defindo margem da página em 0. Também conhecido como Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* height define como a imagem irá aparecer nos dispositivos. 
+Box sizing é o formato que vamos usar de box, border-box diz que o conteúdo não irá "estourar".
+As demais especificações são definidas para o body da página.  */
+body {
+    /* height: 100vh; */
+    box-sizing:border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--font-primaria);
+    font-size: 1.5rem;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+    font-size: 1.6rem;
+}
+
+
+/* Usamos o display flex para poder usar as propriedas da flexBox.
+Justify content é uma propriedade da flexBox. */
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 10%;
+}
+
+.apresentacao:hover {
+    border: 2px dotted var(--cor-secundaria);
+    border-radius: 16px;
+}
+
+/* Width = largura. gap = definir espaçamento entre os objetos. */
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Usando font importada. */
+.apresentacao__conteudo__titulo {
+    font-family: var(--font-primaria);
+    font-size: 2.60rem;
+}
+
+.titulo_destaque {
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo__texto {
+    font-family: var(--font-primaria);
+    font-size: 1.5rem;
+    color: var(--cor-texto);
+}
+
+/* Usando flexBox. */
+.apresentacao__links {
+    font-family: var(--font-primaria);
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    justify-content:space-between;
+}
+
+.apresentacao__links_botoes {
+    /* background-color: #19E0D1; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border: 2px dotted var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 14px;
+    font-size: 1.5rem;
+    font-family: var(--font-primaria);
+    padding: 2% 0;
+    text-decoration: none;
+}
+
+.apresentacao__links_botoes:hover {
+    background-color: var(--cor-hover);
+    font-size: 1.6rem;
+}
+
+.apresentacao__imagem {
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+.rodape {
+    font-family: var(--font-secundaria);
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
+    padding: 1%;
+    text-align: center;
+}
+
+
+/* Adicionando media que, basicamente, faz a página ficar responsiva. Ou seja, quando estiver
+na largura definida (1200px) as propriedades a seguir serão mudadas. */
+@media (max-width:1200px) {
+    .cabecalho{
+        padding:6%
+    }
+
+    .cabecalho__menu {
+        justify-content: flex-start;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+    
+}
+
+@media (max-width:945px) {
+.apresentacao__conteudo__titulo {
+    font-family: var(--font-primaria);
+    font-size: 2rem;
+}   
+}

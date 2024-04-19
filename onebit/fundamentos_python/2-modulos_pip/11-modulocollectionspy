@@ -1,0 +1,30 @@
+from collections import Counter, namedtuple, deque
+from operator import itemgetter
+
+
+# 1 -> Contar itens de uma lista
+frutas = ["Maça","Abacaxi","Uva","Pera",
+          "Morango","Abacaxi","Abacate",
+          "Pera"]
+print(frutas)
+print(Counter(frutas)) # -> Com "C" maiúsculo
+
+# 2 -> Nomeando uma tupla
+jogo = namedtuple("jogo",['nome','preço','nota'])
+jogo1 = jogo("Ror 2","R$ 18","9.2")
+print(jogo1)
+
+# 3 -> Ordenando dicionários
+estudantes = {"João":23, "Rosa":19, "Lua":29, "Marta":18}
+ordenando = sorted(estudantes.items(), key=itemgetter(0)) # -> Ordenando por chave
+print(estudantes)
+print(ordenando)
+
+# 4 -> Utilizando fila em ambas extremidades
+deq = deque([20,40,89,102,3])
+deq.appendleft(18) # -> Adicional ao ínicio
+deq.append(26) # -> Adiciona ao final
+deq.pop() # -> Remove do final
+deq.popleft() # -> Remove do ínicio
+deq.popleft()
+print(deq) 

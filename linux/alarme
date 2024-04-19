@@ -1,0 +1,43 @@
+#!/bin/bash
+
+var=0
+sudo modprobe pcspkr
+while [ $var -lt 24 ]; do
+data=`date`
+echo "Quantos minutos será o alarme ?"
+read minutos
+
+echo "Alarme iniciado em $data e programado para $minutos minutos"
+
+contagem=$(($minutos*60))
+
+sleep $contagem 
+
+beep -f 2000 -l 200
+beep -f 2000 -l 100
+beep -f 2000 -l 200
+beep -f 2000 -l 100
+sleep 1.5
+
+beep -f 2000 -l 200
+beep -f 2000 -l 200
+beep -f 2000 -l 200
+beep -f 2000 -l 200
+sleep 1.5
+
+beep -f 2000 -l 200
+beep -f 2000 -l 200
+beep -f 2000 -l 200
+beep -f 2000 -l 200
+sleep 1.5
+
+beep -f 2000 -l 200
+beep -f 2000 -l 200
+beep -f 2000 -l 200
+beep -f 2000 -l 200
+
+((var++))
+done
+
+
+
