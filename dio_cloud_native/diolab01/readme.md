@@ -13,10 +13,6 @@ O código foi desenvolvido com base nas aulas do bootcamp e com o apoio do queri
 - ![Azure SQL](https://img.shields.io/badge/Azure%20SQL-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 - ![Portal Azure](https://img.shields.io/badge/Azure%20Portal-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-<div align="center"> <div style="border: 2px solid #0078D4; border-radius: 8px; padding: 10px; width: fit-content; background-color: #f4f9fc;"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" alt="Python" width="70" height="70"/>&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" title="Azure SQL" alt="Azure SQL" width="70" height="70"/>&nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" title="Portal Azure" alt="Portal Azure" width="70" height="70"/> </div> </div>
-
-
-
 ## 📚 Bibliotecas Utilizadas
 - streamlit
 - dotenv
