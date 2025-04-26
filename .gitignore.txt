@@ -1,3 +1,0 @@
-# ignorar pasta com credencias
-/dio_cloud_native/diolab01/.streamlit
-dio_cloud_native/diolab01/.env
