@@ -25,11 +25,11 @@ O código foi desenvolvido com base nas aulas do bootcamp e com o apoio do queri
 
 ## 📸 Screenshots
 Essa é a tela inicial, quando estou preenchendo o cadastro do produto:
-![Preenchendo tela de cadastro](prints/cadastro_1.png)
+![Preenchendo tela de cadastro](prints/cadastro_parte1.png)
 
 
 Essa é a tela após o produto ter sido cadastrado:
-![Preenchendo tela de cadastro](prints/cadastro_2.png)
+![Preenchendo tela de cadastro](prints/cadastro_parte2.png)
 # 📚O que aprendi
 
 - Um pouco mais sobre Python e as bibliotecas citadas;
