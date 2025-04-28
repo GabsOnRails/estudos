@@ -1,5 +1,0 @@
-streamlit
-dotenv
-azure-storage-blob
-pymssql
-pyodbc
