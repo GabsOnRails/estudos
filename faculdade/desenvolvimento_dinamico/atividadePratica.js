@@ -22,39 +22,29 @@
 
 // d. A função deverá chamar saudacao().
 
+//funcão saudacao
+function saudacao() {
+  console.log("Olá, mundo!");
+}
+
 // 2. Passando parâmetros para funções:
-
-// a. Crie uma função de saudação para aceitar um parâmetro nome.
-
-// b. Dentro da nova função, imprima uma mensagem de saudação personalizada que inclua o nome passado como argumento.
-
-// c. Chame a função novaSaudacao() com diferentes nomes como argumento para testar.
+function novaSaudacao(nome) {
+  console.log(`Olá, ${nome}!`);
+}
 
 // 3. Crie uma função chamada soma.
-
-// a. Esta função deve aceitar dois parâmetros, a e b, e retornar a soma deles.
-
-// b. Chame a função soma com alguns pares de números como argumentos e imprima o resultado no console.
-
-//função saudacao
-function saudacao() {
-  console.log("Olá,mundo!");
-}
-
-saudacao();
-
-//função novaSaudacao utilizando parâmetros.
-function novaSaudacao(nome) {
-  console.log(`Olá,${nome}`);
-}
-novaSaudacao("Gabriel");
-novaSaudacao("Ana");
-novaSaudacao("Roberto");
-
-//função soma com parâmetros a e b
 function soma(a, b) {
   return a + b;
 }
-console.log(soma(5, 4));
-console.log(soma(88, 456));
-console.log(soma(18, 8));
+
+//imprimindo resultados
+//funcao saudacao
+saudacao();
+//funcao novaSaudacao
+novaSaudacao("Gabriel");
+novaSaudacao("Ana");
+novaSaudacao("Hilio");
+//funcao soma
+console.log(`Resultado da soma: ${soma(4, 5)}`);
+console.log(`Resultado da soma: ${soma(1990, 35)}`);
+console.log(`Resultado da soma: ${soma(2, 13456)}`);
