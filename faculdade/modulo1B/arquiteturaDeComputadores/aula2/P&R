@@ -1,0 +1,4 @@
+200 * 7 = 1400 (Cada palavra tem 7 caracteres, cada página tem 200 palavras)
+1400 * 150 * 1000 = 210000000 bytes (1400 caracteres por página x Quantidade de páginas por livro x livros)
+1 mb = 1,048,576 bytes
+210.000.000 / 1,048,576 = 200.27 MB
