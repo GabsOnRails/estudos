@@ -1,0 +1,26 @@
+Ferramentas
+
+Para transcrever a reunião podemos usar a tl;dv, mas ela funciona bem somente com 5 usuários.
+É um plugin de navegador
+------------------------------------------------------------------------------------------------
+
+Técnicas para coletar feedback
+1 - Entrevista -  Usar o google meet integrado com o tl;dv
+Existem entrevistas estruturas que são aquelas com perguntas predefinidas e mesma ordem para
+todos os participantes.
+Mas há também as entrevistas semiestruturadas que são guiadas por tópicos e possui flexibilidade
+nas perguntas.
+
+2 - Focus Groups - Pequenos grupos discutindo tópicos específicos, facilitados por um moderador.
+
+3 - Questionários e Surveys - Conjunto de perguntas estruturadas envidas a um grande número de
+usuários. Uma pergunta por vez para garantir as respostas.
+
+Após o formulário começar a ser respondido vamos em "respostas - link para app de planilha"
+e fazemos a integração com o powerBI. No excel usamos o arquivo - compartilhar - publicar na web
+No powerBI - obter dados - dados web e colamos o link aqui.
+
+------------------------------------------------------------------------------------------------
+
+Bibliotecas
+Pandas e matplotlib para gerar grãficos com os dados coletados. Ambas são python.

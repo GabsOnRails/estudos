@@ -1,0 +1,10 @@
+Método GET:
+Os dados do formulário são enviados anexados à URL da página.
+É possível visualizar os dados enviados na barra de endereços do navegador.
+É útil para situações em que os dados não são sensíveis, pois todos podem ver o que foi enviado.
+
+Método POST:
+Os dados do formulário são enviados de forma oculta, não aparecendo na URL.
+É considerado mais seguro do que o método GET, pois não expõe os dados na barra de endereços.
+Ideal para enviar informações sensíveis, como senhas.
+
