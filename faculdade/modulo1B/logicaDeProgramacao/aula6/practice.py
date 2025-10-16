@@ -6,12 +6,12 @@
 # Declarando variaveis
 multiplicacao = 1
 
-for i in range(5):
-    numero = float(input("Digite um número para multiplicar: "))
-    resultado = multiplicacao * numero
-    multiplicacao = resultado
+# for i in range(5):
+#     numero = float(input("Digite um número para multiplicar: "))
+#     resultado = multiplicacao * numero
+#     multiplicacao = resultado
     
-print(f"o resultado da multiplicação é: {multiplicacao}")
+# print(f"o resultado da multiplicação é: {multiplicacao}")
 
 # Usando while
 
@@ -22,7 +22,7 @@ while validador == False:
         numero = float(input("Digite um número para multiplicar: "))
         resultado = multiplicacao * numero
         multiplicacao = resultado
-        validador = True
+    validador = True
 print(f"o resultado da multiplicação é: {multiplicacao}")
 
     
