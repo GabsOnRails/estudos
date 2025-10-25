@@ -1,0 +1,22 @@
+Servidor: Um sistema operacional servidor deve permitir a gestão eficiente de grandes quantidades de recursos
+
+Distribuído: Em um sistema operacional distribuído, os recursos de cada máquina estão disponíveis globalmente, de forma transparente aos usuários.
+
+Multiusuário: Um sistema operacional multiusuário deve suportar a identificação do proprietário de cada recurso dentro do sistema (arquivos, processos, áreas de memória, conexões de rede) e impor regras de controle de acesso para impedir o uso desses recursos por usuários não autorizados. Essa funcionalidade é fundamental para a segurança dos sistemas operacionais de rede e distribuídos. Grande parte dos sistemas atuais são multiusuários.
+
+De rede: Um sistema operacional de rede deve possuir suporte à operação em rede, ou seja, a capacidade de oferecer às aplicações locais recursos que estejam localizados em outros computadores da rede, como arquivos e impressoras. Ele também deve disponibilizar seus recursos locais aos demais computadores, de forma controlada. A maioria dos sistemas operacionais atuais oferecem esse tipo de funcionalidade.
+
+Um programa se torna um processo quando um arquivo executável é carregado na memória.
+
+Ciclo de vida de um processo:
+Novo: Um novo processo foi adicionado à fila de execuções, então a CPU deverá buscar os dados necessários para executar o processo;
+
+Pronto:  O processo encontra-se pronto para ser executado, nesse ponto ele pode ser enviado para a CPU pois os dados básicos para sua execução já foram selecionados;
+
+Em Execução: O processo está na CPU sendo executado;
+
+Em Espera: O processo executa alguma operação de Entrada e Saída, ou depende de algum dado que deve ser fornecido por outro processo ou que não foi previamente carregado;
+
+Terminado: O processo encerrou seu ciclo de execução.
+
+Ferramentas para entender mais sobre arquitetura de computadores: DrMips e Johnny Simulator.
