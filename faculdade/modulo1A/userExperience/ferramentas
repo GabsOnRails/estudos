@@ -24,3 +24,16 @@ No powerBI - obter dados - dados web e colamos o link aqui.
 
 Bibliotecas
 Pandas e matplotlib para gerar grãficos com os dados coletados. Ambas são python.
+
+------------------------------------------------------------------------------------------------
+
+Como fazer passador no figma:
+colocar um frame central;
+criar outro frame, mas com 3 formas agrupadas e cores distintas;
+pegar esse agrupamento e colocar, hierarquicamente, dentro do frame principal;
+em prototipo colocar como overflow horizontal.
+
+Figma to code.
+
+gantt chart para se organizar.
+Matriz de Eisenhower para priorizar as tarefas.
