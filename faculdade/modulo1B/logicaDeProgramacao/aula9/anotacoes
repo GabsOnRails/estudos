@@ -1,0 +1,5 @@
+É uma linguagem baseada em Orientação a objetos que utiliza o conceito de write once, run anywhere. Isso por conta da Java Virtual Machine (JVM). PS: A JVM precisa ser instalada.
+
+Java é uma linguagem muito robusta, para algoritmos mais simples é melhor escolher outra linguagem.
+
+Java é organizado em classes.
