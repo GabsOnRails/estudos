@@ -1,0 +1,19 @@
+circuitos lógicos:
+
+é uma junção de portas lógicas que resulta em uma saída.
+Note como a saída da porta XOR é 1 se, e somente se, as entradas tiverem sinais diferentes entre si (uma 0 e outra 1).
+
+Pode-se inverter a saída XOR acoplando a ela uma NOT, isso resulta na porta XNOR, neste caso, entradas diferentes irão gerar saída 0.
+
+
+Resumo e dicas:
+Usar simulador de circuito(logic gate simulator) ou emulador como o Arduino Tinkercard.
+
+
+a b = 1
+c d = 0
+a b c d = 1 
+d e = 0 
+
+ abcde = 1
+ 
