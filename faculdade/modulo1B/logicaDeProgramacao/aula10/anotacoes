@@ -1,0 +1,26 @@
+java é composto por classes e métodos.
+
+É orientada a objetos e case sensitive. É uma linguagem compilada.
+
+As classes em java precisam começar com letra maíscula, sempre!
+
+Os dados nativos(primitivos) do java são todos em mínusculo. Normalmente não são usados no mercado, justamente por ter um intervalo pré-determinado.
+
+vetores == array.
+
+int [] numbers = {1,2,3,4,5}
+
+para declarar uma matrix:
+int [][] matrix = {{1,2,3}
+		  {4,5,6}
+		  {7,8,9}}
+		  
+precisamos de dois for para percorrer a matrix e usar o print na hora de exibir os dados, se usar o println irá pular linha e não ficará igual uma planilha.
+
+ System.out.println("Valores matrix: ");
+      for (int i = 0; i < matrix.length; i ++){
+        for (int j = 0; j < matrix[i].length; j ++){
+           System.out.print(matrix[i][j] + " ");
+            }
+        System.out.println();
+        }
