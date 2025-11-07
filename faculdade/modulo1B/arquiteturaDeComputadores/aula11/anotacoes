@@ -1,0 +1,14 @@
+SGBD - Sistema de Gerenciamento de Banco de Dados.
+
+Banco de Dados: Instância de dados + meta-dados.
+
+instância de dado -> o próprio dado.
+Meta-dados -> Dicionário de dados.
+Todo BD possui um esquema de base de dados e faz acesso através de linguagens de definição de dados.
+
+No princípio BD são sistemas de arquivos armazenados em pastas ou no disco. Esses dados podem ser de diferentes aplicações e sem integração, porém são projetados para atender a uma aplicação específica.
+
+O SGBD faz uma integração entre esses dados, fazendo com que fiquem armazenados em um único local.
+
+As coleção de informações armazenadas é chamada de instância.
+O projeto geral do BD é chamado de esquema do banco de dados. A diferença entre eles é que a instância muda com frequência, enquanto o esquema não.
