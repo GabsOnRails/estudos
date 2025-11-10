@@ -1,3 +1,5 @@
+//go:build ignore
+
 // Pacote principal
 package main
 
