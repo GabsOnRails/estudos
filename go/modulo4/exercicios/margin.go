@@ -1,6 +1,10 @@
+//go:build ignore
+
 package kata
+
 import (
-	"fmt")
+	"fmt"
+)
 
 
  func CloseCompare(a, b, margin float64) int {
