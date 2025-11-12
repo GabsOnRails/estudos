@@ -1,3 +1,5 @@
+//go:build ignore
+
 package main
 
 import (
@@ -9,8 +11,6 @@ func main () {
 	fmt.Println(CanFinish(golf,newDistance))
 	}
 
-
-	
 	type Car struct {
 		Battery int
 		BatteryDrain int
