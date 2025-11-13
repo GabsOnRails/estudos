@@ -26,10 +26,11 @@ func main () {
 	// 	time.Sleep(2*time.Second)
 	// }
 
-	// For range -> Para percorrer uma lista
 
+	// For range -> Para percorrer uma lista
 	frutas := []string{"Maça","Banana","Abacaxi","Goiaba"}
 
+	// o _ é o indice, poderia ser i
 	for _, elementoFruta := range frutas {
 		fmt.Println(elementoFruta)
 	}
