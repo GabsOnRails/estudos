@@ -14,7 +14,7 @@ import "fmt"
 // 3 anos para cima é só subtrair, o valor que sobra multiplicamos pela quantidade em anoes humanos e usamos o 2 e 1 padrão.
 
 func main () {
-	years:=10
+	years:=2
 	fmt.Println(CalculateYears(years))
 	
 
