@@ -13,7 +13,7 @@ func main () {
 func summation(x int) int{
 	
 	sum :=0
-	for i := 0; i <=x; i ++{
+	for i := 1; i <=x; i ++{
 		sum += i
 		
 	}
