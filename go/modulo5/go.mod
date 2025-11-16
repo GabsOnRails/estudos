@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 module modulo5
 
 go 1.24.9
-=======
-module module5
-
-go 1.25.4
->>>>>>> 817315ce93a674df73094467c49d079a1dadeb2b
 
 require (
 	github.com/onsi/ginkgo/v2 v2.27.2
