@@ -1,0 +1,9 @@
+procedimento ! função :
+
+Procedimento normalmente é utilizado para BD, por isso o termo proc. São métodos que não retornam valor, normalmente são do tipo void.
+
+Função: Método que retorna um valor.
+
+Funções recursivas -> Chamam a si mesmo.
+
+Função lambda -> é utilizada para criar uma interface, ou algo assim. 
