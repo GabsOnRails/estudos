@@ -7,6 +7,8 @@ package main
 // 	fmt.Println(Invert(testeArray))
 // }
 
+// fazer arr * (-1)
+
 func Invert(arr []int) []int {
 	newArr := []int{}
 	for _, elementArr := range arr {
