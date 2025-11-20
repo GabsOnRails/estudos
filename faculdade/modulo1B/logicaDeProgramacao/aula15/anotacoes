@@ -1,0 +1,5 @@
+mecanismos de busca:
+
+busca sequencial -> percorre item por item. Normalmente é usada para pequenas buscas. Os dados não precisam estar ordenados. Tem tempo de execução O(n)
+
+busca binária -> a lista precisa estar ordenada do menor para o maior. Busca de forma mais eficiente, procurando entre o maior e menor número. Tem tempo de execução O(log n)
