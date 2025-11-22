@@ -28,25 +28,3 @@ func Well(ideas []string) string {
 	return phrase
 
 }
-
-// Dá pra usar o switch case também e faz mais sentido.
-
-// func Well(ideas []string) string {
-// 	counter := 0
-
-// 	for _, checkIdeas := range ideas {
-// 		if checkIdeas == "good" {
-// 			counter++
-// 		}
-// 	}
-
-// 	switch {
-// 	case counter > 2:
-// 		return "I smell a series!"
-// 	case counter > 0: // seria entre 1 e 2 por conta do case acima
-// 		return "Publish!"
-// 	default:
-// 		return "fail"
-// 	}
-
-// }
