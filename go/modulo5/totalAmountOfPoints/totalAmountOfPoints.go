@@ -11,7 +11,7 @@ func main() {
 func Points(games []string) int {
 	totalPoints := 0
 	for _, game := range games {
-		points := strings.Split(game, ":")
+		points := strings.Split(game, ":") // Aqui tá a mágica, ta quebrando o valor assim que recebe a string, transformando em duas
 		home, _ := strconv.Atoi(points[0])
 		visitant, _ := strconv.Atoi(points[1])
 
