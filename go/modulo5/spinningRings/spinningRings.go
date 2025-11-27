@@ -7,27 +7,32 @@
 // inner starts in max and decreasing 1 per turn. When pass 0 return to max.
 package main
 
+import "fmt"
+
 func main() {
+	fmt.Println(SpinningRings(2, 3))
 
 }
 
 func SpinningRings(innerMax, outerMax int) int {
-	innerStart := innerMax
-	outerStart := 1
-	countingSping := 1
+	inner := 0
+	outer := 0
+	count := 0
 
-	for innerStart != outerStart {
-		innerStart--
-		outerStart++
-		countingSping++
-		if innerStart < 0 {
-			innerStart = innerMax
+	for {
+		inner--
+		outer++
+		count++
+
+		if inner < 0 {
+			inner = innerMax
 		}
-		if outerStart > outerMax {
-			outerStart = 0
+		if outer > outerMax {
+			outer = 0
+		}
+		if inner == outer {
+			return count
 		}
 	}
-	return countingSping
-}
 
-// your code here
+}
