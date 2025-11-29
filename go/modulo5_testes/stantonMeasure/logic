@@ -1,0 +1,8 @@
+I need to verified how many times a n apear in a slice.
+After this the number is the next that I will search, like this:
+
+n= 1
+[]{1,2,3,3,1,6,1} -> 1 appear 3 times, next number is 3
+3 appear 2 times, so the result is 2
+
+For algorithm I need to use foor to return a value of number in slice and count it if is equal n.

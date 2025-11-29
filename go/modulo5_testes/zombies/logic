@@ -1,0 +1,2 @@
+I need to do a loop for count meters, shoot and zombies killed.
+In this loop I increasing 0.5 in metersTraveled var, a bullet in bulletsSpent and a zombie in zombieKilled var. For increasing 0.5 and not turn a number into float, I will multiple per 2, it's the same thing. And define a maxRound.
