@@ -4,4 +4,5 @@ Como estou focando na área de **backend**, a maioria do conteúdo aqui será so
 <br>    
 <div>
   Dentro de cada pasta há um README explicando como funciona a organização daqueles arquivos. Caso ainda não tenha, estou trabalhando nisso.
+  Os comentários e alguns README estão em inglês por questão de visibilidade.
 </div>
