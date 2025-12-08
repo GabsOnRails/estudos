@@ -11,9 +11,9 @@ func inviteMoreWomen(guests []int) bool {
 
 	// Iterate through each guest.
 	// Convention: 1 represents a man, -1 represents a woman.
-	for _, person := range guests {
+	for _, guest := range guests {
 
-		if person == 1 {
+		if guest == 1 {
 			menCount++
 		} else {
 			womenCount++
