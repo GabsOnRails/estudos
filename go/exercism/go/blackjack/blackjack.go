@@ -56,6 +56,5 @@ func FirstTurn(card1, card2, dealerCard string) string {
 	case myPoints <= 11:
 		strategy = "H"
 	}
-
 	return strategy
 }
